@@ -25,7 +25,7 @@
           <a href="{{ site.baseurl }}{{ post.url }}">
               <div class="c-rel-img">
                   <h5>{{ post.title }}</h5>
-                  <img width="100%" src="{{ post.head_image | absolute_url }}" alt="{{ post.title }}" align="center">
+                  <img width="100%" src="{{ site.baseurl }}{{ post.head_image }}" alt="{{ post.title }}" align="center">
               </div>
           </a>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
