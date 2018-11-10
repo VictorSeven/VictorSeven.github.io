@@ -1,0 +1,18 @@
+---
+layout: page
+title: Applets
+permalink: /applets/
+---
+
+{% for post in site.posts  %}
+    {% if post.tipo == "applet" %}
+  
+        <div class="c-image-gallery">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+          <img width="100%" src="{{ post.head_image | absolute_url }}" alt="{{ post.title }}" align="center"> 
+          </a>
+        </div>
+
+    {% endif %}
+{% endfor %}
+

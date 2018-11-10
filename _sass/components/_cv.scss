@@ -1,0 +1,89 @@
+/* ==========================================================================
+   CV
+   ========================================================================== */
+
+.cv-row {
+	&:after {
+	   content: "";
+	   display: table;
+	   clear: both;
+       }
+
+}
+
+.cv-photo {
+    float:left;
+    width: 40%;
+}
+
+
+.cv-personal {
+
+    line-height: 6rem;
+    float:left;
+    padding: 5rem;
+    width: 60%;
+    text-align:center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+.cv-photo {
+    float:left;
+    width: 100%;
+    text-align:center;
+}
+
+
+.cv-personal {
+
+    line-height: 5rem;
+    float:left;
+    width: 110%;
+    text-align:center;
+}
+
+}
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.cv-desplegable {
+    weight:bold;
+    background-color: #673AB7;
+    color: white;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .cv-desplegable:hover {
+    background-color: #9051FF;
+    color: white;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.cv-panel {
+    z-index:-1;
+    position:relative;
+    top: -3rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: justify;
+    background-color: #C09DFF;
+    display: none;
+    overflow: hidden;
+
+} 
+
+
+
+
+
+

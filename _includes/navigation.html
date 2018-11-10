@@ -1,0 +1,11 @@
+<nav class="c-navigation {% if site.fixedNav == 'true' %}is-fixed{% endif %}">
+  <div class="c-navigation__container u-container">
+    
+    <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">Presentación</a>
+    <a class="c-navigation__item {% if page.url == '/articles/' %}is-active{% endif %}" href="{{ "/articles/" | prepend: site.baseurl }}">Divulgación</a>
+    <a class="c-navigation__item {% if page.url == '/technical/' %}is-active{% endif %}" href="{{ "/technical/" | prepend: site.baseurl }}">Research</a>
+    <a class="c-navigation__item {% if page.url == '/applets/' %}is-active{% endif %}" href="{{ "/applets/" | prepend: site.baseurl }}">Applets Interactivas</a>
+    <a class="c-navigation__item {% if page.url == '/about/' %}is-active{% endif %}" href="{{ "/about/" | prepend: site.baseurl }}">Academic CV</a>
+
+</div>
+</nav>
