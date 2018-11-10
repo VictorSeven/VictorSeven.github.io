@@ -3,7 +3,7 @@ layout: page
 title: The Complex Box
 ---
 
-¡Bienvenido (o bienvenida :D) a mi página personal! The Complex Box (la caja compleja) es un espacio que utilizo para escribir, principalmente, sobre ciencia. En particular, sobre física, que es mi especialidad. Y en concreto, sobre física estadística y sistemas complejos, que es a lo que dedico mi investigación.
+¡Bienvenido o bienvenida a mi página personal! The Complex Box (la caja compleja) es un espacio que utilizo para escribir sobre ciencia. En particular, sobre física y sistemas complejos, que es a lo que dedico mi investigación.
 
 Entonces, ¿sobre qué va este blog? Bueno, depende de quién seas...
 
