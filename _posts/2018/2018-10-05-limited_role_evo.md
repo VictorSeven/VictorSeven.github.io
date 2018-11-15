@@ -6,7 +6,7 @@ date:   2018-10-05 20:00:00 -0500
 tags: my-research evo-bio soc complex-systems
 
 tipo: tech
-head_image: "/images/2018/limitedrole.png"
+head_image: "/images/2018/limitedrole.jpg"
 ---
 
 To inaugurate the technical section of the blog -nothing better to start speaking about my own work. In particular, about my first published article, [Limited role of spatial self-structuring in emergent trade-offs during pathogen evolution](https://doi.org/10.1038/s41598-018-30945-1). 
