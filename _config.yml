@@ -24,6 +24,8 @@ url: "victorseven.github.io/" # the base hostname & protocol for your site
 githubUsername: VictorSeven
 twitterUsername: Victor_Seven7
 
+#Logo path
+logo: /images/static/logo.png
 
 # Build settings
 markdown: kramdown

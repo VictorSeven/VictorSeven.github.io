@@ -5,6 +5,8 @@ date:   2018-10-05 20:00:00 -0500
 
 tags: my-research evo-bio soc complex-systems
 
+summary: "Discovered two different, self-regulartory mechanisms in host-pathogen system."
+
 tipo: tech
 head_image: "/images/2018/limitedrole.jpg"
 ---

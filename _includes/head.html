@@ -30,11 +30,9 @@
     {% endif %}
 
     {% if page.head_image %}
-      <meta name="twitter:image"
-        content="{{ site.baseurl }}{{ post.head_image }}">
+      <meta name="twitter:image" content="{{ site.baseurl }}{{ page.head_image }}">
     {% else %}
-      <meta name="twitter:image"
-        content="{{ site.urlimg }}/path/to/cover.png">
+      <meta name="twitter:image" content="{{ site.baseurl }}{{ site.logo}}"
     {% endif %}
 
 </head>
