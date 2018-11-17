@@ -41,7 +41,7 @@ Soy estudiante de doctorado, haciendo mi tesis en cotutela entre la Universidad 
 
 Me gusta escribir sobre ciencia, a veces. Por eso he hecho este blog, para ir escribiendo lo que me apetezca.
 
-También me gusta la programación, la música, y los libros de fantasía y ciencia ficción. En mis ratos libres toco el piano, juego a videojuegos, o los hago yo (o, en su defecto, compongo música para ellos). Tengo una estupenda [colección de partituras](href=http://victorsevenmusic.blogspot.com/) de música de videojuegos y otras bandas sonoras conocidas para piano o conjuntos que empecé hace ya un tiempo. También puedes escuchar mi [música original para videojuegos.](https://soundcloud.com/user-105629660) 
+También me gusta la programación, la música, y los libros de fantasía y ciencia ficción. En mis ratos libres toco el piano, juego a videojuegos, o los hago yo (o, en su defecto, compongo música para ellos). Tengo una estupenda [colección de partituras](href=http://victorsevenmusic.blogspot.com/) de música de videojuegos y otras bandas sonoras conocidas para piano o conjuntos que empecé hace ya un tiempo. También puedes escuchar mi [música original para videojuegos.](https://soundcloud.com/victorseven) 
 
 ## Contacto / Contact
 
