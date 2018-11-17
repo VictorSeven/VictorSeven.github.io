@@ -17,8 +17,9 @@
 
 
   <! Twitter cards! >
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site"    content="@{{ site.twitterUsername }}">
-    <meta name="twitter:creator" content="Victor Seven">
+    <meta name="twitter:creator" content="@{{ site.githubUsername }}">
     <meta name="twitter:title"   content="{{ page.title }}">
 
     
@@ -26,6 +27,14 @@
     <meta name="twitter:description" content="{{ page.summary }}">
     {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+
+    {% if page.head_image %}
+      <meta name="twitter:image"
+        content="{{ site.baseurl }}{{ post.head_image }}">
+    {% else %}
+      <meta name="twitter:image"
+        content="{{ site.urlimg }}/path/to/cover.png">
     {% endif %}
 
 </head>
