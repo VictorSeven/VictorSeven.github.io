@@ -17,7 +17,6 @@
 
 
   <! Twitter cards! >
-    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site"    content="@{{ site.twitterUsername }}">
     <meta name="twitter:creator" content="@{{ site.githubUsername }}">
     <meta name="twitter:title"   content="{{ page.title }}">
@@ -30,9 +29,11 @@
     {% endif %}
 
     {% if page.head_image %}
-      <meta name="twitter:image" content="{{ site.url }}{{ page.head_image }}">
+       <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:image:src" content="{{ site.url }}{{ page.head_image }}">
     {% else %}
-      <meta name="twitter:image" content="{{ site.url }}{{ site.logo }}">
+       <meta name="twitter:card" content="summary">
+      <meta name="twitter:image:src" content="{{ site.url }}{{ site.logo }}">
     {% endif %}
 
 </head>
