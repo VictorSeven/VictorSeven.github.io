@@ -8,7 +8,7 @@ tags: software_libre opinion
 summary: "Science should be made relying on free software -do you know why?"
 
 tipo: tech
-head_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/535px-Heckert_GNU_white.svg.png"
+head_image: "/images/2018/gnu.png"
 ---
 
 Maybe you have read this in some other part of the Internet, but it is really a very important thing. Let me state it clearly:
@@ -17,7 +17,7 @@ Maybe you have read this in some other part of the Internet, but it is really a 
 
 Dot, there's no more. Here I want to speak about why you really should start using free software, and why we should care about free software projects in science. And also, I would like to talk about some of the myths regarding the use of free software in science. There are many reasons to use it, but let me emphasize two that -under my point of view- are very important. 
 
-_Head image: Aurelio A. Heckert, CC BY-SA 2.0_ 
+_Head image: GNU logo by Aurelio A. Heckert, CC BY-SA 2.0_ 
 
 # One: results should be reproducible.
 
