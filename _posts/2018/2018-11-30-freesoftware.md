@@ -8,7 +8,7 @@ tags: software_libre opinion
 summary: "Science should be made relying on free software -do you know why?"
 
 tipo: tech
-head_image: "/images/2018/gnu.png"
+head_image: "/images/2018/gnu.jpg"
 ---
 
 Maybe you have read this in some other part of the Internet, but it is really a very important thing. Let me state it clearly:
