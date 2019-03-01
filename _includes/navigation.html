@@ -1,6 +1,6 @@
-<nav class="c-navigation {% if site.fixedNav == 'true' %}is-fixed{% endif %}">
-  <div class="c-navigation__container u-container">
-    
+<!--
+<nav class="c-navigation is-fixed">
+  <div class="c-navigation__container u-container" id="titles">
     <a class="c-navigation__item {% if page.url == '/' %}is-active{% endif %}" href="{{ "/" | prepend: site.baseurl }}">Presentación</a>
     <a class="c-navigation__item {% if page.url == '/articles/' %}is-active{% endif %}" href="{{ "/articles/" | prepend: site.baseurl }}">Divulgación</a>
     <a class="c-navigation__item {% if page.url == '/technical/' %}is-active{% endif %}" href="{{ "/technical/" | prepend: site.baseurl }}">Research</a>
@@ -9,3 +9,25 @@
 
 </div>
 </nav>
+-->
+
+<nav class="c-navigation" id="titles">
+    <a href="{{ "/" | prepend: site.baseurl }}">Presentación</a>
+    <a href="{{ "/articles/" | prepend: site.baseurl }}">Divulgación</a>
+    <a href="{{ "/technical/" | prepend: site.baseurl }}">Research</a>
+    <a href="{{ "/applets/" | prepend: site.baseurl }}">Applets Interactivas</a>
+    <a href="{{ "/about/" | prepend: site.baseurl }}">Academic CV</a>
+    <a href="javascript:void(0)" class="icon" onclick="addToMenu()">&#9776;</a>
+</nav>
+
+
+<script>
+function addToMenu() {
+  var x = document.getElementById("titles");
+  if (x.className === "c-navigation") {
+    x.className += "__responsive";
+  } else {
+    x.className = "c-navigation__item";
+  }
+} 
+</script>
