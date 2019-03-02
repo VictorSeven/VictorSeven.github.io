@@ -11,23 +11,29 @@
 </nav>
 -->
 
-<nav class="c-navigation" id="titles">
+<nav class="c-navigation" id="navigation_bar">
     <a href="{{ "/" | prepend: site.baseurl }}">Presentación</a>
     <a href="{{ "/articles/" | prepend: site.baseurl }}">Divulgación</a>
     <a href="{{ "/technical/" | prepend: site.baseurl }}">Research</a>
     <a href="{{ "/applets/" | prepend: site.baseurl }}">Applets Interactivas</a>
     <a href="{{ "/about/" | prepend: site.baseurl }}">Academic CV</a>
-    <a href="javascript:void(0)" class="icon" onclick="addToMenu()">&#9776;</a>
+    <a href="javascript:void(0)" id="menu_but" class="icon" onclick="addToMenu()">&#9776;</a>
 </nav>
 
 
 <script>
+
+var menu_cerrado = true; //Menu state
+
+//Open or close the menu, simply by changing the class of the navigation bar
 function addToMenu() {
-  var x = document.getElementById("titles");
-  if (x.className === "c-navigation") {
-    x.className += "__responsive";
-  } else {
-    x.className = "c-navigation__item";
-  }
+    
+    var bar = document.getElementById("navigation_bar");
+
+    if (menu_cerrado) bar.className = "c-navigation__responsive";  
+    else bar.className = "c-navigation";  
+
+    menu_cerrado = !menu_cerrado; //Prepare for next action
+
 } 
 </script>
