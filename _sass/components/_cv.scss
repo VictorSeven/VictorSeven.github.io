@@ -69,17 +69,13 @@
 /* Style the accordion panel. Note: hidden by default */
 .cv-panel {
     z-index:-1;
-    position:relative;
-    top: -3rem;
-    padding-top: 4rem;
+    position:static;
     padding-bottom: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
     text-align: justify;
     background-color: #C09DFF;
     display: none;
-    overflow: hidden;
-
 } 
 
 
