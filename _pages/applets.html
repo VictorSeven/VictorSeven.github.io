@@ -4,14 +4,38 @@ title: Applets
 permalink: /applets/
 ---
 
+
+
 {% for post in site.posts  %}
     {% if post.tipo == "applet" %}
   
-        <div class="c-image-gallery">
-          <a href="{{ site.baseurl }}{{ post.url }}">
-          <img width="100%" src="{{ post.head_image | absolute_url }}" alt="{{ post.title }}" align="center"> 
+
+    {% if forloop.first %}
+        <h2 class="c-archives__year" id="{{ this_year }}-ref">{{this_year}}</h2>
+        <ul class="c-archives__list">
+    {% endif %}
+        <li class="c-archives__item">
+          <a href="{{ site.baseurl }}{{ post.url }}" class="c-item-style">
+          <div align="center">
+          <img width="100%" height="100%" src="{{ site.baseurl }}{{ post.head_image }}" alt="{{ post.title }}"> 
+          </div>
+          <h5>{{ post.title }}</h5>
+          <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+
           </a>
-        </div>
+
+
+            
+        </li>
+    {% if forloop.last %}
+        </ul>
+    {% else %}
+        {% if this_year != next_year %}
+        </ul>
+        <h2 class="c-archives__year" id="{{ next_year }}-ref">{{next_year}}</h2>
+        <ul class="c-archives__list">
+        {% endif %}
+    {% endif %}
 
     {% endif %}
 {% endfor %}
