@@ -4,8 +4,10 @@
 
 // Font families
 @mixin ff--sans-serif($font-weight: normal) {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+  //font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Arial";
   font-weight: $font-weight;
+  color: rgba($c__black, 0.9);
 }
 
 @mixin ff--mono($font-weight: normal) {

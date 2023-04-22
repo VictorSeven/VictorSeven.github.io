@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .c-article {
-
+  background-color: #efefef;
 }
 
 .c-article__main {
@@ -16,11 +16,12 @@
   padding-bottom: 7.5rem;
   padding-right: 2.5rem;
   padding-left: 2.5rem;
+
   @include fs--body;
 
   > * {
     margin-bottom: 1.8rem;
-    color: rgba($c__black, .7);
+    color: $c__black;
   }
 
   a:not(.c-btn) {

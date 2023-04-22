@@ -13,16 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The Complex Box
+title: Victor Buendia's Complex Box
 email: ""
 description: > # this means to ignore newlines until "baseurl:"
-  Divulgación sobre física estadística y sistemas complejos. Y lo que se me ocurra.
+ Victor Buendia's home page 
 baseurl: ""  
 url: "victorseven.github.io" # the base hostname & protocol for your site
 
 # Social
 githubUsername: VictorSeven
-twitterUsername: Victor_Seven7
+twitterUsername: vbuendiar 
+mastodonUsername: vbuendiar
 
 #Logo path
 logo: images/static/logo.png

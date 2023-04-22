@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Divulgación
+title: Blog 
 permalink: /articles/
 ---
 {% for post in site.posts  %}
-    {% if post.tipo == "divul" %}
-  
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
@@ -36,5 +34,4 @@ permalink: /articles/
         {% endif %}
     {% endif %}
 
-    {% endif %}
 {% endfor %}
