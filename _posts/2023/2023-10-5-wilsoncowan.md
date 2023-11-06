@@ -12,7 +12,7 @@ head_image: "/images/2023/jensen.png"
 ---
 
 
-In this blog post, I will summarize some ideas on the dynamics of simple excitation-inhibition binary network models and their relation to balance. I started working on this topic in 2018, publishing some papers where I helped with the simulations and methods. Unfortunately, the papers did not receive a lot of attention, but I believe that taken in context they show some aspects of the asynchronous irregular states that, even if known, usually go below the radar. 
+In this blog post, I will summarize some ideas on the dynamics of simple excitatory-inhibitory binary network models, their relation to balance and excitability, and what I learnt during the past years. I started working on this topic in 2018, publishing some stuff. I believe that our results highlight some key point of irregular cortical states that are not always taken into account, in particular in more theoretical circles. So if you are into simple models, dynamics, criticality or balance, you might be interested in reading this article.
 
 Also, I believe the story of how I got the results is a fun one and might be motivating for some of you. Let's get down to it!
 
